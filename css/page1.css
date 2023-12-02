@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EDEDED;
+}
+.infobox{
+    /*width: 1920px;*/
+    /*height: 1080px;*/
+    padding: 20px 35px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    height: 100px;
+}
+.hitem{
+    flex: 1;
+}
+
+.juzhong{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    margin-top: 52rem;
+}
+.fl{
+    flex: 1;
+    margin-left: -3px;
+}
+.fr{
+    flex: 1;
+    text-align: right;
+}
+.searchbox{
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    width: 350px;
+    height: 370px;
+}
+.searchbox p {
+    margin-bottom: 10px;
+}
+.searchinput{
+    width: 300px;
+}
+input{
+    height: 30px;
+    width: 240px;
+    background-color: #EDEDED;
+    border: 0;
+    outline: none;
+}
+.sousuo{
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.sousuo img{
+    vertical-align: middle;
+}
+.box{
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    /*width: 1900px;*/
+    z-index: -1;
+}
+.box img{
+    width: 100%;
+}

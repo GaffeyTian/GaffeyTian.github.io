@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="infobox">
+        <div class="header">
+            <div class="hitem">
+                <img class="hitem img1" style="width: 8rem;" src="./images/101.png" alt="">
+            </div>
+            <div class="hitem">
+                <a href="./html/page21.html"><img style="width: 5rem;" class="hitem img2" src="./images/102.jpg" alt=""></a>
+            </div>
+            <div class="hitem">
+                <img style="width: 17rem;" class="hitem img3" src="./images/103.jpg" alt="">
+            </div>
+            <div class="hitem">
+                <img style="width: 28rem;" class="hitem img4" src="./images/104.png" alt="">
+            </div>
+        </div>
+
+        <p class="juzhong" style="margin-top: 5.5rem;"><img style="width: 18rem;" src="./images/111111.png" alt=""></p>
+        <div class="searchbox">
+            <input type="text" placeholder="" id="keywords"><img src="./images/searchlogo.png" alt="" onclick="gowhere()">
+        </div>
+        <p class="juzhong"><img src="./images/nav7.png" alt=""></p>
+
+
+        <script>
+            function gowhere(){
+                var keywords = document.querySelector('#keywords').value
+                if(keywords == 'JUDGE' || keywords == 'judge' || keywords == '法官'){
+                    window.location.href = 'html/JUDGE_SEARCH.html'
+                }
+                else if(keywords == 'ENGINEER' || keywords == 'engineer' || keywords == '建筑师'){
+                    window.location.href = 'html/ENGINEER_SEARCH.html'
+                }
+                else if(keywords == 'DOCTOR' || keywords == 'doctor' || keywords == '医生'){
+                    window.location.href = 'html/DOCTOR_SEARCH.html'
+                }
+                else if(keywords == 'NURSES' || keywords == 'nurses' || keywords == '护士'){
+                    window.location.href = 'html/NURSES_SEARCH.html'
+                }
+                else if(keywords == 'CHEF' || keywords == 'chef' || keywords == '主厨'){
+                    window.location.href = 'html/CHEF_SEARCH.html'
+                }
+                else if(keywords == 'PROGRAMMER' || keywords == 'programmer' || keywords == '程序员'){
+                    window.location.href = 'html/PROGRAMMER_SEARCH.html'
+                }
+                else if(keywords == 'SECRETARY' || keywords == 'secretary' || keywords == '秘书'){
+                    window.location.href = 'html/SECRETARY_SEARCH.html'
+                }
+                else if(keywords == 'STOP FLAGGER' || keywords == 'STOP FLAGGER'){
+                    window.location.href = 'html/STOPFLAGGER_SEARCH.html'
+                }
+                else if(keywords == 'TEACHER' || keywords == 'teacher' || keywords == '教师'){
+                    window.location.href = 'html/TEACHER_SEARCH.html'
+                }
+                else if(keywords == 'WAITER' || keywords == 'waiter' || keywords == '服务员'){
+                    window.location.href = 'html/WAITER_SEARCH.html'
+                }
+                else if(keywords == 'WORKER' || keywords == 'worker' || keywords == '工人'){
+                    window.location.href = 'html/WORKER_SEARCH.html'
+                }
+                else if(keywords == 'CEO' || keywords == 'ceo' || keywords == '老板' || keywords =='总裁' || keywords =='boss'){
+                    window.location.href = 'html/CEO_SEARCH.html'
+                }
+                
+                else{
+                    alert('no found!')
+                }
+            }
+            
+        </script>
+
+        <div class="footer">
+            <div class="fl">
+                <a href="html/about.html"><img src="./images/11_03.png" style="width: 5rem;" alt=""></a>
+            </div>
+            <div class="fr">
+                <img src="./images/11_05.png" style="width: 10rem;" alt="">
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

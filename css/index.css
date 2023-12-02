@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EDEDED;
+}
+.infobox{
+    /*width: 1920px;*/
+    /*height: 1080px;*/
+    padding: 20px 35px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    height: 100px;
+}
+.hitem{
+    flex: 1;
+}
+
+.searchbox{
+    width: 630px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    line-height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.searchbox img{
+    vertical-align: middle;
+}
+input{
+    outline: none;
+    width: 580px;
+    height: 40px;
+    border: 0;
+    background-color: #EDEDED;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.juzhong{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    margin-top:  16rem;
+
+}
+.fl{
+    flex: 1;
+}
+.fr{
+    flex: 1;
+    text-align: right;
+}
